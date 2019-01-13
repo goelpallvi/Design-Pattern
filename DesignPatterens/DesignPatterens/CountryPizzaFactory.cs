@@ -11,27 +11,31 @@ namespace DesignPatterens
 
     public class CountryPizzaFactory
     {
-        
 
-
-        public static CountryPizzaAbstract GetCountryPizzaInstance(PizzaType type)
+        public static CountryPizzaAbstract GetCountryPizzaInstance(ComputerAbstractFactory computerAbstract)
         {
-            CountryPizzaAbstract countryPizzaAbstract = new SalmoniaPizza();
-            //TestPizza testPizza = new Salmonia();
-            switch (type)
-            {
-                case PizzaType.France
-                :
-                    countryPizzaAbstract = new FrancePizza();
-                    break;
-                case PizzaType.ROMANA:
-                    countryPizzaAbstract= new SalmoniaPizza();
-                    break;
-            }
-
-            return countryPizzaAbstract;
-
+            computerAbstract.
 
         }
+
+        //    public static CountryPizzaAbstract GetCountryPizzaInstance(PizzaType type)
+        //{
+        //    CountryPizzaAbstract countryPizzaAbstract = new SalmoniaPizza();
+        //    //TestPizza testPizza = new Salmonia();
+        //    switch (type)
+        //    {
+        //        case PizzaType.France
+        //        :
+        //            countryPizzaAbstract = new FrancePizza();
+        //            break;
+        //        case PizzaType.ROMANA:
+        //            countryPizzaAbstract= new SalmoniaPizza();
+        //            break;
+        //    }
+
+        //    return countryPizzaAbstract;
+
+
+        //}
     }
 }

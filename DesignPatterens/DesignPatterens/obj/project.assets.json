@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\pgoel\\source\\repos\\DesignPatterens\\DesignPatterens\\DesignPatterens.csproj",
+      "projectUniqueName": "C:\\Users\\pgoel\\Desktop\\DesignPatterens\\DesignPatterens\\DesignPatterens\\DesignPatterens.csproj",
       "projectName": "DesignPatterens",
-      "projectPath": "c:\\users\\pgoel\\source\\repos\\DesignPatterens\\DesignPatterens\\DesignPatterens.csproj",
+      "projectPath": "C:\\Users\\pgoel\\Desktop\\DesignPatterens\\DesignPatterens\\DesignPatterens\\DesignPatterens.csproj",
       "packagesPath": "C:\\Users\\pgoel\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\pgoel\\source\\repos\\DesignPatterens\\DesignPatterens\\obj\\",
+      "outputPath": "C:\\Users\\pgoel\\Desktop\\DesignPatterens\\DesignPatterens\\DesignPatterens\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

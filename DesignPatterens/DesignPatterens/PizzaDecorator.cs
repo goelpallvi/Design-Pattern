@@ -6,10 +6,12 @@ namespace DesignPatterens
 {
    public class PizzaDecorator
     {
+        public IPizza pizza;
+            
         public PizzaDecorator(CountryPizzaAbstract countryPizzaAbstract)
         {
+            countryPizzaAbstract.
 
-            countryPizzaAbstract.countryFlavour = 
 
         }
         ICountryPizza pizza;
