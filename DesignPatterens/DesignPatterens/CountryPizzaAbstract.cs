@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPatterens.Modela;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -16,11 +17,16 @@ namespace DesignPatterens
         {
             CountryName = countryName;
         }
-     public CreateCountryPizza()
+        protected  virtual void SetFlavour(Flavour flavour)
         {
-            return new C
+           countryFlavour = flavour.ToString();
 
         }
+     //public CreateCountryPizza()
+     //   {
+     //       return new C
+
+     //   }
         
 
     }

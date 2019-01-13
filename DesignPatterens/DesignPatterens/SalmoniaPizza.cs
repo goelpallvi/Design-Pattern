@@ -20,7 +20,7 @@ namespace DesignPatterens
 
         }
     
-        public void SetFlavour(Flavour flavour )
+        public override SetFlavour(Flavour flavour )
         {
             flavour = flavour;
 
